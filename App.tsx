@@ -52,7 +52,7 @@ const SectionConnection = () => (
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] h-[90%] bg-sage-100/50 blur-[40px] rounded-full pointer-events-none"></div>
           
           <img 
-            src="./book-cover.png" 
+            src="book-cover.png" 
             alt="Walking with God, Gently - Daily Devotional for Women" 
             className="relative z-10 w-full max-w-[350px] h-auto drop-shadow-2xl hover:scale-[1.02] transition-transform duration-700 ease-out"
           />
@@ -179,9 +179,8 @@ const DownloadSection = () => {
           </p>
 
           <a 
-            href="#" // <--- INSERISCI QUI IL LINK DEL TUO PDF
-            target="_blank"
-            rel="noopener noreferrer"
+            href="guida-companion.pdf" 
+            download="A-Gentle-Companion-Devotional.pdf" // Questo nome file apparirà all'utente quando scarica
             className="inline-flex items-center justify-center gap-2 w-full md:w-auto px-10 py-4 bg-sage-600 hover:bg-sage-700 text-white rounded-xl transition-all duration-300 font-medium shadow-md hover:shadow-xl hover:-translate-y-0.5 tracking-wide"
           >
             <Download className="w-5 h-5" />
